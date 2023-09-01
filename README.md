@@ -58,9 +58,12 @@ It offers the option of visualizing the trained decision tree using the Graphviz
 ## How to use
 
 Download the .ipynb file: If you haven't already done so, download the project file, usually with the extension .ipynb, to your computer. Open Google Colab. Upload the .ipynb file: in Google Colab's "File" menu, select the "Upload from the notebook" option. Then choose the .ipynb file you downloaded in the previous step.
+
 Import the necessary libraries: At the start of the notebook, the necessary libraries should already be imported. Check that the imports are as follows:
 import numpy as np; import pandas as pd; import seaborn as sns; from sklearn.tree import DecisionTreeClassifier; from sklearn.model_selection import train_test_split; from sklearn.metrics import mean_squared_error, accuracy_score; from sklearn import tree; import graphviz
+
 Run the notebook: Click on "Runtime" in the top menu and select "Run All". This will run all the cells in the notebook, including downloading the data, splitting the data, training the model, and evaluating the model.
+
 Visualizing the Decision Tree (optional): If you want to visualize the decision tree, make sure that the cell with the code for the tree visualization is not commented out. Run the cell to generate the visualization.
 
 ## Notes
