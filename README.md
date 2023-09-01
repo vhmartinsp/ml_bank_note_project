@@ -42,43 +42,22 @@ Visualização da Árvore de Decisão (opcional): Se você quiser visualizar a �
 - Contribuições e sugestões são bem-vindas para aprimorar este projeto. Sinta-se à vontade para criar problemas ou solicitações de incorporação.
 
 
-# Machine Learning Project: Detecting Fake Banknotes in Banknote Images
-
-The project demonstrates how to use the model to make predictions about the authenticity of bank notes and is a valuable application of artificial intelligence in fraud detection problems.
-
-## Functionalities:
-
-- The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as NumPy, pandas, Scikit-Learn, Seaborn, Matplotlib and Graphviz.
-- It downloads a dataset from a URL using Python commands. The data is then read into a Pandas DataFrame for analysis and processing.
-- It splits the data into a training set and a test set using Scikit-Learn's train_test_split function. This is essential for evaluating the model's performance.
-- Create a decision tree model using Scikit-Learn. This model is trained based on the statistical characteristics of the banknote images, such as variance, asymmetry, kurtosis and entropy.
-- It uses evaluation metrics such as RMSE (Root Mean Square Error) and accuracy. This allows you to determine how well the model is able to distinguish genuine banknotes from counterfeit ones.
-- It offers the option of visualizing the trained decision tree using the Graphviz library. This can be used to understand how the model makes decisions based on the characteristics of banknotes.
-It demonstrates how to use the trained model to make predictions about the authenticity of a banknote based on its statistical characteristics. This can be applied to new data to check whether a banknote is genuine or counterfeit.
-
-## How to use
-
-Download the.ipynb file: if you haven't already done so, download the project file, usually with the extension.ipynb, to your computer.
-Open Google Colab.
-Upload the.ipynb file: in Google Colab's "File" menu, select the "Upload from notebook" option. Then choose the.ipynb file you downloaded in the previous step.
-
+Machine Learning Project: Detecting Fake Banknotes in Banknote Images
+The project demonstrates how to use the model to make predictions about the authenticity of banknotes and is a valuable application of artificial intelligence in fraud detection problems.
+Functionalities:
+The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as NumPy, pandas, Scikit-Learn, Seaborn, Matplotlib, and Graphviz.
+It downloads a dataset from a URL using Python commands. The data is then read into a Pandas DataFrame for analysis and processing.
+It splits the data into a training set and a test set using Scikit-Learn's train_test_split function. This is essential for evaluating the model's performance.
+Create a decision tree model using Scikit-Learn. This model is trained based on the statistical characteristics of the banknote images, such as variance, asymmetry, kurtosis, and entropy.
+It uses evaluation metrics such as RMSE (Root Mean Square Error) and accuracy. This allows you to determine how well the model can distinguish genuine banknotes from counterfeit ones.
+It offers the option of visualizing the trained decision tree using the Graphviz library. This can be used to understand how the model makes decisions based on the characteristics of banknotes. It demonstrates how to use the trained model to make predictions about the authenticity of a banknote based on its statistical characteristics. This can be applied to new data to check whether a banknote is genuine or counterfeit.
+How to use
+Download the .ipynb file: If you haven't already done so, download the project file, usually with the extension .ipynb, to your computer. Open Google Colab. Upload the .ipynb file: in Google Colab's "File" menu, select the "Upload from the notebook" option. Then choose the .ipynb file you downloaded in the previous step.
 Import the necessary libraries: At the start of the notebook, the necessary libraries should already be imported. Check that the imports are as follows:
-
-import numpy as np;
-import pandas as pd;
-import seaborn as sns;
-from sklearn.tree import DecisionTreeClassifier;
-from sklearn.model_selection import train_test_split;
-from sklearn.metrics import mean_squared_error, accuracy_score;
-from sklearn import tree;
-import graphviz
-
-Run the notebook: Click on "Runtime" in the top menu and select "Run All". This will run all the cells in the notebook, including downloading the data, splitting the data, training the model and evaluating the model.
-
+import numpy as np; import pandas as pd; import seaborn as sns; from sklearn.tree import DecisionTreeClassifier; from sklearn.model_selection import train_test_split; from sklearn.metrics import mean_squared_error, accuracy_score; from sklearn import tree; import graphviz
+Run the notebook: Click on "Runtime" in the top menu and select "Run All". This will run all the cells in the notebook, including downloading the data, splitting the data, training the model, and evaluating the model.
 Visualizing the Decision Tree (optional): If you want to visualize the decision tree, make sure that the cell with the code for the tree visualization is not commented out. Run the cell to generate the visualization.
-
-## Notes
-
-- Make sure you are connected to the internet when running, as Google Colab requires an internet connection.
-- This project was developed for educational purposes, emphasizing the understanding of Machine Learning with supervised learning and Decision Tree
-- Contributions and suggestions are welcome to improve this project. Feel free to create issues or incorporation requests.
+Notes
+Make sure you are connected to the internet when running, as Google Colab requires an internet connection.
+This project was developed for educational purposes, emphasizing the understanding of Machine Learning with supervised learning and Decision Tree
+Contributions and suggestions are welcome to improve this project. Feel free to create issues or incorporation requests.
