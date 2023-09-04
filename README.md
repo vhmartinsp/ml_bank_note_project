@@ -47,7 +47,7 @@ The project demonstrates how to use the model to make predictions about the auth
 
 ## Functionalities:
 
-- The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as numPy, pandas, scikit-Learn, sklearn and graphviz.
+- The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as numpy, pandas, scikit-Learn, sklearn and graphviz.
   
 - It downloads a dataset from a URL using Python commands. The data is then read into a Pandas DataFrame for analysis and processing.
 - It splits the data into a training set and a test set using Scikit-Learn's train_test_split function. This is essential for evaluating the model's performance.
