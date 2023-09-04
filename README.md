@@ -5,7 +5,7 @@ O projeto demonstra como usar o modelo para fazer predições sobre a autenticid
 
 ## Funcionalidades:
 
-- O projeto começa importando as bibliotecas essenciais para a análise de dados e a criação de modelos de Machine Learning. Isso inclui bibliotecas como NumPy, pandas, Scikit-Learn, Matplotlib e Graphviz.
+- O projeto começa importando as bibliotecas essenciais para a análise de dados e a criação de modelos de Machine Learning. Isso inclui bibliotecas como numPy, pandas, scikit-Learn, sklearn e graphviz.
 - Faz o download de um conjunto de dados (dataset) a partir de um URL usando comandos do Python. Em seguida, os dados são lidos em um DataFrame do Pandas para análise e processamento.
 - Faz a divisão dos dados em um conjunto de treinamento e um conjunto de teste usando a função train_test_split do Scikit-Learn. Isso é fundamental para avaliar o desempenho do modelo.
 - Cria um modelo de árvore de decisão usando o Scikit-Learn. Esse modelo é treinado com base nas características estatísticas das imagens das cédulas bancárias, como variância, assimetria, curtose e entropia.
@@ -47,7 +47,7 @@ The project demonstrates how to use the model to make predictions about the auth
 
 ## Functionalities:
 
-- The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as NumPy, pandas, Scikit-Learn, Matplotlib, and Graphviz.
+- The project starts by importing the essential libraries for analyzing data and creating Machine Learning models. This includes libraries such as numPy, pandas, scikit-Learn, sklearn and graphviz.
   
 - It downloads a dataset from a URL using Python commands. The data is then read into a Pandas DataFrame for analysis and processing.
 - It splits the data into a training set and a test set using Scikit-Learn's train_test_split function. This is essential for evaluating the model's performance.
