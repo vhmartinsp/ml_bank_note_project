@@ -9,7 +9,7 @@ O projeto demonstra como usar o modelo para fazer predições sobre a autenticid
 - Faz o download de um conjunto de dados (dataset) a partir de um URL usando comandos do Python. Em seguida, os dados são lidos em um DataFrame do Pandas para análise e processamento.
 - Faz a divisão dos dados em um conjunto de treinamento e um conjunto de teste usando a função train_test_split do Scikit-Learn. Isso é fundamental para avaliar o desempenho do modelo.
 - Cria um modelo de árvore de decisão usando o sklearn. Esse modelo é treinado com base nas características estatísticas das imagens das cédulas bancárias, como variância, assimetria, curtose e entropia.
-- Utiliza métricas de avaliação, como o RMSE (Raiz Quadrada do Erro Quadrático Médio) e a acurácia. Isso permite determinar quão bem o modelo é capaz de distinguir notas bancárias genuínas de falsificadas.
+- Utiliza métricas de avaliação, como a Matriz de Confusãoe e a acurácia. Isso permite determinar quão bem o modelo é capaz de distinguir notas bancárias genuínas de falsificadas.
 - Oferece a opção de visualizar a árvore de decisão treinada usando a biblioteca Graphviz. Isso pode servir para entender como o modelo toma decisões com base nas características das cédulas bancárias.
 - Realiza a demonstração de como usar o modelo treinado para fazer predições sobre a autenticidade de uma cédula bancária com base em suas características estatísticas. Isso pode ser aplicado a novos dados para verificar se uma cédula é genuína ou falsificada.
 
@@ -52,7 +52,7 @@ The project demonstrates how to use the model to make predictions about the auth
 - It downloads a dataset from a URL using Python commands. The data is then read into a Pandas DataFrame for analysis and processing.
 - It splits the data into a training set and a test set using Scikit-Learn's train_test_split function. This is essential for evaluating the model's performance.
 - Create a decision tree model using Scikit-Learn. This model is trained based on the statistical characteristics of the banknote images, such as variance, asymmetry, kurtosis, and entropy.
-- It uses evaluation metrics such as RMSE (Root Mean Square Error) and accuracy. This allows you to determine how well the model can distinguish genuine banknotes from counterfeit ones.
+- It uses evaluation metrics such as Consfusion Matrix and accuracy. This allows you to determine how well the model can distinguish genuine banknotes from counterfeit ones.
 - It offers the option of visualizing the trained decision tree using the Graphviz library. This can be used to understand how the model makes decisions based on the characteristics of banknotes. It - demonstrates how to use the trained model to make predictions about the authenticity of a banknote based on its statistical characteristics. This can be applied to new data to check whether a banknote is genuine or counterfeit.
 
 ## How to use
